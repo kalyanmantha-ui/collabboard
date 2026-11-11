@@ -1,5 +1,7 @@
 # CollabBoard (frontend only)
 
+For a guided tour of this project, with an annotated demo of how it uses paper-ui, visit my portfolio: https://kalyan-mantha.vercel.app
+
 Kanban-style task app built on the `paper-ui` design system. **No backend**: all data comes from a mock API
 (`src/api/mockApi.ts`) that keeps an in-memory database, persists it to `localStorage`, and adds artificial latency
 so loading states are real.
