@@ -1,0 +1,8 @@
+.form{display:flex;flex-direction:column}
+.head{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:20px 24px 16px;border-bottom:1px solid var(--color-bd-default)}
+.head h2{font-size:1.6rem;line-height:1.15}
+.body{display:flex;flex-direction:column;gap:16px;padding:20px 24px}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:16px 24px;border-top:1px solid var(--color-bd-default)}
+.actions{display:flex;gap:8px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media (max-width:560px){.grid2{grid-template-columns:1fr}}
